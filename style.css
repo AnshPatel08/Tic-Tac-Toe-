@@ -57,7 +57,8 @@ nav ul{
     font-family: 'Baloo bhaina 2', cursive;
 }
  .imgbox img{
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
  }
 
  .br-0{

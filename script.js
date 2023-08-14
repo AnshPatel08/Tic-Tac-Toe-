@@ -35,6 +35,7 @@ let boxtext = document.getElementsByClassName('boxtext');
 
 }
 // game logic
+// music.play()
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
