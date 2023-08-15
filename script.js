@@ -28,6 +28,7 @@ let boxtext = document.getElementsByClassName('boxtext');
         if((boxtext[e[0]].innerText ===boxtext[e[1]].innerText) && (boxtext[e[0]].innerText ===boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== "")){
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + "Won"
             isgameover = true
+            document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "200px"
         }
 
 
